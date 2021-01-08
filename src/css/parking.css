@@ -1,0 +1,26 @@
+.parkingContainer{
+    background-color: rgb(255, 255, 255);
+}
+.parkCard{
+    text-align: left;
+    padding: 3vw;
+    width: 240px;
+    height: 200px;
+    margin: 2vw;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: rgb(223, 229, 233);
+}
+
+@media(max-width:769px){
+    .parkCard{
+        width:40vw;
+    }
+}
+@media(max-width:450px){
+    .parkCard{
+        width:91vw;
+    }
+}
+
+

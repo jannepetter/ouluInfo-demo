@@ -1,0 +1,41 @@
+.menubarContainer{
+    background-color: #E10069;
+    width: 100vw;
+    height: 8vh;
+    position: sticky;
+    top: 0px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+}
+
+.menubarButton{
+    color: aliceblue;
+    padding: 2vw;
+    font-weight: 600;
+}
+.clickedB{
+    color: rgb(28, 29, 31);
+}
+
+/* @media (max-width:750px){
+    .menubarButton{
+        font-size: medium;
+    }
+} */
+@media (max-width:450px){
+.menubarButton{
+    padding: 1vw;
+    font-size: medium;
+}
+}
+@media (max-width:330px){
+    .menubarButton{
+        font-size: small;
+    }
+}
+@media (max-width:315px){
+    .menubarButton{
+        font-size: x-small;
+    }
+}
